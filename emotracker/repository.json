@@ -6,8 +6,7 @@
       "name": "IoGR Map and Item Tracker",
       "flags": [
         "map",
-        "pins",
-        "chathud"
+        "pins"
       ],
       "game_name": "Illusion of Gaia Randomizer",
       "version": "1.2.1.0",
@@ -17,17 +16,11 @@
           "name": "Map Tracker",
           "flags": [
             "map",
-            "pins",
-            "chathud"
+            "pins"
           ]
         },
         {
-          "name": "Item Tracker",
-          "flags": [
-            "map",
-            "pins",
-            "chathud"
-          ]
+          "name": "Item Tracker"
         }
       ],
       "link": "https://Apokalysme.github.io/emotracker/iogr_emotracker_apokalysme.zip"
