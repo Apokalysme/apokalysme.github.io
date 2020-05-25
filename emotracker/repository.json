@@ -1,34 +1,47 @@
 {
-  "name": "Trackers by Apokalysme",
-  "packages": [
-    {
-      "author": "Apokalysme",
-      "name": "IoGR Map and Item Tracker",
-      "flags": [
-        "map",
-        "pins"
-      ],
-      "game_name": "Illusion of Gaia Randomizer",
-      "version": "2.0.0.0",
-      "uid": "iogr_emotracker_apokalysme",
-//      "required_app_version": "2.3.6.6",
-//      "documentation_url": "https://github.com/Apokalysme/iogr_emotracker_apokalysme/wiki",
-      "variants": [
-        {
-          "name": "World Map Tracker",
-          "flags": [
-            "map",
-            "pins"
-          ]
-        },
-        {
-          "name": "Item Tracker",
-          "flags": [
-            "autotracker"
-          ]
-        }
-      ],
-      "link": "https://Apokalysme.github.io/emotracker/iogr_emotracker_apokalysme.zip"
-    }
-  ]
+	"name": "Trackers by Apokalysme",
+	"packages": [
+		{
+			"author": "Apokalysme",
+			"name": "IoGR Map and Item Tracker",
+			"flags": [
+				"map",
+				"pins",
+				"autotracker"
+			],
+			"game_name": "Illusion of Gaia Randomizer",
+			"version": "3.0.0.0",
+			"uid": "iogr_emotracker_apokalysme",
+			"required_app_version": "2.3.6.6",
+			"documentation_url": "https://github.com/Apokalysme/iogr_emotracker_apokalysme/wiki",
+			"variants": [
+				{
+					"name": "World Map Tracker",
+					"flags": [
+						"map",
+						"pins"
+					]
+				},
+				{
+					"name": "Item Tracker - Classic",
+					"flags": [
+						"autotracker"
+					]
+				},
+				{
+					"name": "Item Tracker - Full",
+					"flags": [
+						"autotracker"
+					]
+				},
+				{
+					"name": "Item Tracker - Compact",
+					"flags": [
+						"autotracker"
+					]
+				}
+			],
+			"link": "https://Apokalysme.github.io/emotracker/iogr_emotracker_apokalysme.zip"
+		}
+	]
 }
